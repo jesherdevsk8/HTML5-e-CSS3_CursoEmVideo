@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+    body {
+        background-color: #000;
+        font-family: 'ubuntu', sans-serif ;
+        font-weight: 500;
+    }
+
+    h1 {
+        background-color: #c4d111;
+        color: red;
+    }
+
+    h2 {
+        color: seagreen;
+    }
+
+    p {
+        color: seashell;
+    }

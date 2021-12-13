@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Exercicios/Ex006/img/jesh.ico" type="image/x-icon">
+    <title>Videos em HTML</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #010163;
+        }
+
+        h1, p {
+            text-align: center;
+            color: cornsilk;
+        }
+
+        div {
+            width: 500px;  
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 3px 3px  rgb(126, 189, 241);
+        }
+
+        div video, iframe {
+            
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeos está hospedado no meu próprio servidor</p>
+
+    <!--<div>    Deixei comentado pois o github não suportou enviar video com mais 100mb
+        <video controls autoplay loop width="500" poster="/Exercicios/Ex006/img/poster.jpg">
+            <source src="/Exercicios/Ex006/media/Dying Light.webm" type="video/webm">
+            <source src="/Exercicios/Ex006/media/Dying Light.m4v" type="video/mp4">
+        </video>
+    </div>
+    <br>
+    <p>falta o formato ogv para suportar em navegadores safari</p>-->
+
+    <h1>Inserindo vídeo do youtube</h1>
+    <div>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/an8iBoVAOV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br>
+
+    <footer>
+        <p>Jesher Minelli Alves</p>
+    </footer>
+
+</body>
+</html>
